@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "tiuXi8v1ak3STvy7XwrMSqDFg8nf1r24enFso2zuMC+YJrbVGV+tZHyAmhdOV+TMSiSdhi4ITTZTLYEYYPAyQQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\reserve\\Reserve_Covid\\Reserve_Covid\\Reserve_Covid.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\danie\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512"
+  ],
+  "logs": []
+}

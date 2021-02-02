@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Os 10 países com mais casos de Covid-19 ativos</h1>    
+</div>
+<div>
+    <table className="table table-striped">
+        <thead>
+            <tr>
+                <th>Posicao</th>
+                <th>Países</th>
+                <th>Casos Ativos</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                foreach (var item in Model)
+                {
+                        <tr key="@item.Posicao">
+                            <td>@item.Posicao</td>
+                            <td>@item.Country</td>
+                            <td>@item.TotalAtived</td>
+                        </tr>
+                }
+            }
+        </tbody>
+
+    </table>
+</div>
